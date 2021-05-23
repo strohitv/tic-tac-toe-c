@@ -4,14 +4,7 @@
 #include <time.h>
 #include <windows.h>
 
-#define turnWaitTime 3000
-#define player1Char 'O'
-#define player2Char 'X'
-
-#include "utils.h"
-#include "score.h"
-#include "player.h"
-#include "ai.h"
+#include "main.h"
 
 int main() {
     srand(time(NULL));
