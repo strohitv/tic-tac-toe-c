@@ -34,8 +34,9 @@ void determineRules(int *mode, int *winCounter) {
     scanf("%c", &modeChar);
     fflush(stdin);
 
-    printf("Bitte eingeben, wie viele Matches ein Spieler für den Gesamtsieg gewinnen muss.\n");
-    printf("Anzahl Siege: ");
+    printf("\n");
+    printf("Bis wie vielen Siegen soll gespielt werden?\n");
+    printf("Anzahl Siege zum Gesamtsieg: ");
     scanf("%d", winCounter);
     fflush(stdin);
 
