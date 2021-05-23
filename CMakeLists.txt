@@ -3,4 +3,4 @@ project(11_tic_tac_toe C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(11_tic_tac_toe main.c utils.h utils.c score.h score.c player.h player.c ai.h ai.c main.h)
+add_executable(11_tic_tac_toe main.c game/utils.h game/utils.c game/score.h game/score.c game/player.h game/player.c game/ai.h game/ai.c main.h)
